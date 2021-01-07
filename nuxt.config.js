@@ -38,6 +38,7 @@ export default {
     '@nuxt/http',
     // TODO: Remove it if you want to eject from codeSandbox
     './codesandbox',
+    'nuxt-vue-select'
   ],
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
   /*
