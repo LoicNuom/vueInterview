@@ -12,12 +12,13 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    " ": "nuxt/typescript-build",
     "@nuxt/http": "^0.5.0",
     "@nuxt/types": "2.14.12",
+    "@nuxt/typescript-build": "2.0.3",
     "@nuxt/typescript-runtime": "2.0.0",
     "@nuxtjs/tailwindcss": "3.4.2",
     "nuxt": "^2.12.2",
+    "nuxt-property-decorator": "2.8.8",
     "reqlim": "^0.0.0",
     "typescript": "4.1.3"
   },

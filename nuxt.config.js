@@ -4,17 +4,17 @@ export default {
    ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
    */
   head: {
-    title: "Nuxt.js starter for CSB",
+    title: 'Nuxt.js starter for CSB',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: "description",
-        name: "description",
-        content: "Official Nuxt.js starter for CodeSandBox"
-      }
+        hid: 'description',
+        name: 'description',
+        content: 'Official Nuxt.js starter for CodeSandBox',
+      },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   /*
@@ -35,11 +35,11 @@ export default {
    */
   modules: [
     // Doc: https://http.nuxtjs.org
-    "@nuxt/http",
+    '@nuxt/http',
     // TODO: Remove it if you want to eject from codeSandbox
-    "./codesandbox"
+    './codesandbox',
   ],
-  buildModules: ["@nuxtjs/tailwindcss"],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
   /*
    ** HTTP module configuration
    */
@@ -55,6 +55,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  }
+    extend(config, ctx) {},
+  },
 };
